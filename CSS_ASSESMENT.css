@@ -1,0 +1,10 @@
+.CAP{
+    font-family:'Times New Roman', Times, serif;
+}
+#PAC{
+    background-color: bisque;
+    border: 5px dotted aqua;
+}
+.carousel-item{
+    text-align: center;
+}
