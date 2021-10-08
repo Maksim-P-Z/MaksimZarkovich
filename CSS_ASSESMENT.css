@@ -11,6 +11,11 @@
 
 .h3 {
     text-align: center;
-    color:red;
+    text-decoration-color:red;
+    border-color: brown;
+}
 
+#textboxid {
+    height:fit-content;
+    size: 90%;
 }
