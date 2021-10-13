@@ -12,10 +12,23 @@
 .h3 {
     text-align: center;
     text-decoration-color:red;
-    border-color: brown;
 }
 
-#textboxid {
+.h2 {
+    text-align: center;
+    color: brown;
+}
+
+#row #border {
     height:fit-content;
     size: 90%;
+    border: solid 1px brown;
+}
+
+a{
+    color: crimson;
+}
+
+a:hover {
+    color:green;
 }
