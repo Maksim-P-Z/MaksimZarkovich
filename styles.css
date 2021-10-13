@@ -19,16 +19,20 @@
     color: brown;
 }
 
-#row #border {
+.row border{
     height:fit-content;
     size: 90%;
     border: solid 1px brown;
 }
 
-a{
+a {
     color: crimson;
 }
 
 .sr-only {
     color:green;
+}
+
+.display-1 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
