@@ -18,23 +18,50 @@ page that contains all the code you need for a new page.-->
   <!--Whole page container div-->
   <div class="container">
     <!--comment box, radio form, submit button, -->
-    <h2>Any addition data we should include?</h2><br>
-    <h4>Are there any other ideas you want to share?</h4><br>
-    <h5>Write it all in the box below (as long as it is related of course).</h5>
+    <h2 style="margin: 3%;">Any addition data we should include?</h2><br>
+    <h4 style="margin: 4%;">Are there any other ideas you want to share?</h4><br>
 
     <form>
-      <div>
-        <input id="#textboxid" type="text">
-        <br><br>
-        <h5>What do you think is the most impactful factor of redlining?</h5>
-        <input type="radio" id="weather" name="big_impact" value="WEATHER">
-        <label for="weather">Weather</label><br>
-        <input type="radio" id="education" name="big_impact" value="EDUCATION">
-        <label for="css">Education</label><br>
-        <input type="radio" id="trees" name="big_impact" value="TREES">
-        <label for="javascript">Trees</label>
-      </div>
-      <div class="col-12">
+      <div class="row align-items-center">
+        <div class="col">
+          <div class="container">
+            <h5>Write it all in the box below (as long as it is related of course).</h5>
+            <input id="#textboxid" type="text">
+            <br><br>
+          </div>
+        </div>
+        <div class="col">
+          <div class="container">
+            <h5>What do you think is the most impactful factor of redlining?</h5>
+            <input type="radio" id="weather" name="big_impact" value="WEATHER">
+            <label for="weather">Weather</label><br>
+            <input type="radio" id="education" name="big_impact" value="EDUCATION">
+            <label for="css">Education</label><br>
+            <input type="radio" id="trees" name="big_impact" value="TREES">
+            <label for="javascript">Trees</label>
+          </div>
+        </div>
+        <div class="col">
+          <div class="d-flex">
+            <h4 style="padding-right: 30px;">How important of an issue do you think redlining is? </h4>
+            <br><br><br>
+            <div class="dropdown me-1">
+              <button type="button" class="btn btn-danger dropdown-toggle" id="dropdownMenuOffset" data-bs-toggle="dropdown" aria-expanded="false" data-bs-offset="10,20">
+                RATE!
+              </button>
+              <ul class="dropdown-menu" aria-labelledby="dropdownMenuOffset">
+                <li><a class="dropdown-item" href="#">Not worried about it</a></li>
+                <li><a class="dropdown-item" href="#">It might be a problem but I' not gonna do anything</a></li>
+                <li><a class="dropdown-item" href="#">This is something I will think more about</a></li>
+                <li><a class="dropdown-item" href="#">This is an extremely important issue facing our community</a></li>
+                <li><a class="dropdown-item" href="#">This is THE problem. The single biggest problem</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>    
+
+      <div class="col-12" style="padding: 50px;">
         <button type="submit" class="btn btn-primary">Submit</button>
       </div>    
     </form>
