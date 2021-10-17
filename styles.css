@@ -9,20 +9,14 @@
     text-align: center;
 }
 
-.h3 {
+.h2 {
     text-align: center;
     text-decoration-color:red;
 }
 
-.h2 {
+.h3 {
     text-align: center;
-    color: brown;
-}
-
-.row border{
-    height:fit-content;
-    size: 90%;
-    border: solid 1px brown;
+    text-decoration-color:red;
 }
 
 a {
@@ -43,5 +37,7 @@ a {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 .row {
-    font-family: sans-serif;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: inherit;
+    color:darkolivegreen;
 }
